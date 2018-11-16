@@ -15,4 +15,4 @@ function addNewElementAsLi(){
   document.querySelector('.employee-list').insertAdjacentHTML('beforeend', `<li>${employeeName}</li>`)
 }
 
-function
+function addNewLiOnClick(){}
