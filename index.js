@@ -18,13 +18,13 @@ function retrieveEmployeeInformation(){
 //}
 
 
-function addNewLiOnClick(){
-  let submit = document.querySelector('input[type="submit"]')
-  submit.addEventListener('click', function(event){
+//function addNewLiOnClick(){
+  //let submit = document.querySelector('input[type="submit"]')
+  //submit.addEventListener('click', function(event){
     //addNewElementAsLi()
-    resetInput()
-  })
-}
+    //resetInput()
+  //})
+//}
 
 function clearEmployeeListOnLinkClick(){
   let link = document.querySelector('a')
