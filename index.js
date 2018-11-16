@@ -14,5 +14,5 @@ function addNewElementAsLi(){
   let name = retrieveEmployeeInformation();
   let newElement = document.createElement("li");
   newElement.appendChild(document.createTextNode(name));
-  document.getElementById('.employee-list').appendChild(newElement);
+  document.querySelector(".employee-list").appendChild(newElement);
 }
