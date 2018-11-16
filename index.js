@@ -15,7 +15,8 @@ function retrieveEmployeeInformation(){
 function addNewElementAsLi(){
   let employeeName = retrieveEmployeeInformation()
   let newElement = document.createElement("li");
-  document.querySelector('.employee-list').appendChild(.)
+  newElement.appendChild(document.createTextNode(employeeName));
+  document.querySelector('.employee-list').appendChild(newElement);
 }
 
 
