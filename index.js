@@ -12,5 +12,6 @@ function retrieveEmployeeInformation(){
 
 function addNewElementAsLi(){
   let name = retrieveEmployeeInformation();
-  let newElement = document.createElement();
+  let newElement = document.createElement('li');
+  newElement.innerHTML = name;
 }
