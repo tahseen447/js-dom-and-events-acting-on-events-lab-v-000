@@ -12,7 +12,5 @@ function retrieveEmployeeInformation(){
 
 function addNewElementAsLi(){
   let name = retrieveEmployeeInformation();
-  let newElement = document.createElement("li");
-  newElement.appendChild(document.createTextNode(name));
-  document.querySelector(".employee-list").appendChild(newElement);
+  document.querySelector(".employee-list").addAdjacentHTML('beforeend', `<li>${name}</li>`);
 }
